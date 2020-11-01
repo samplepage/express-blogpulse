@@ -33,6 +33,6 @@ app.get('/', (req, res) => {
   })
 })
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log(`You're listening to the smooth sounds of port ${process.env.PORT}`)
 })
